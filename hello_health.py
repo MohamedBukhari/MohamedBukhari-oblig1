@@ -1,14 +1,5 @@
-print("Mini Status Checker")
+print("Health App Setup Complete!")
 
-while True:
-    status = input("Enter a number (1, 2, or 3) or q to quit: ")
+name = input("Enter your name: ")
 
-    if status == "q":
-        print("Goodbye!")
-        break
-    elif status == "1":
-        print(f"Status {status}: System is running normally.")
-    elif status == "2":
-        print(f"Status {status}: System needs attention.")
-    else:
-        print(f"Status {status}: Invalid input, try again.")
+print(f"Hello {name}, welcome to your health tracker!")
